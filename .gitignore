@@ -1,0 +1,56 @@
+# General
+.DS_Store
+.env
+.env.local
+*.log
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+.vs/
+
+# OS
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+temp/
+tmp/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# Secrets and credentials (paranoid mode)
+*secret*
+*credential*
+*password*
+*.pem
+*.key
+!public.key
