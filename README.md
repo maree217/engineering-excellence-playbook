@@ -107,6 +107,13 @@ Evaluate current state and plan future state:
 - **AI Maturity Model**: Assess AI/ML capabilities and readiness
 - **Well-Architected Review**: 5 pillars across Azure/AWS/GCP
 
+### 🎒 [Consulting Toolkit](consulting-toolkit/) **NEW**
+Ready-to-use materials for client engagements:
+- **[AI Maturity Assessment](consulting-toolkit/assessment-tools/ai-maturity-assessment.md)**: 5-dimension assessment with scoring guide
+- **Sales Materials**: Competitive positioning, ROI calculators
+- **Proposal Templates**: Level 1/2/3 engagement templates
+- **Case Studies**: Industry-specific success stories with ROI data
+
 ### 🏥 [Industry Solutions](industry-solutions/)
 Vertical-specific patterns and compliance:
 - **Healthcare**: HIPAA, FHIR, patient data protection
@@ -123,10 +130,10 @@ Real-world transformations:
 
 ### 🎓 [Learning Resources](learning-resources/)
 Curated resources (we don't reinvent the wheel):
+- **[External Frameworks](learning-resources/external-frameworks.md)**: MIT CISR, OWASP AIMA, ThoughtWorks Radar
 - Certification paths (Azure, AWS, GCP, Kubernetes)
 - Recommended reading (books, whitepapers, videos)
 - CNCF Landscape guide
-- Thoughtworks Radar insights
 
 ### 🛠️ [Tools](tools/)
 Practical templates and calculators:
@@ -220,15 +227,41 @@ Kubernetes, Terraform, PostgreSQL, Kafka — we prefer open standards that work 
 
 ```
 engineering-excellence-playbook/
-├── principles/                   # Universal patterns
-├── decision-frameworks/          # How to choose
-├── implementation-guides/        # Platform-specific HOW-TOs
-├── assessment-methodology/       # Evaluation frameworks
+├── principles/                   # Universal patterns (architecture, AI, data, security)
+├── decision-frameworks/          # How to choose (platform selection, tech radar)
+├── implementation-guides/        # Platform-specific HOW-TOs (Azure, AWS, GCP)
+├── assessment-methodology/       # Evaluation frameworks (cloud readiness, WAF)
+├── consulting-toolkit/           # Client engagement materials (NEW)
+│   ├── assessment-tools/         #   AI maturity, cloud readiness assessments
+│   ├── sales-materials/          #   Competitive positioning, ROI calculators
+│   ├── proposal-templates/       #   Level 1/2/3 engagement templates
+│   └── case-studies/             #   Industry-specific success stories
 ├── industry-solutions/           # Vertical-specific patterns
 ├── case-studies/                 # Real-world examples
-├── learning-resources/           # Curated external links
+├── learning-resources/           # External frameworks, certifications
 └── tools/                        # Templates & calculators
 ```
+
+---
+
+## 🔗 Ecosystem: Linked Repositories
+
+This playbook is the **hub** that connects specialized repositories:
+
+| Repository | Purpose | Link |
+|------------|---------|------|
+| **azure-enterprise-solutions-architecture** | Azure CoE reference implementation | [View](https://github.com/maree217/azure-enterprise-solutions-architecture) |
+| **copilot-center-of-excellence** | Microsoft Copilot implementation guides | [View](https://github.com/maree217/copilot-center-of-excellence) |
+| **three-layer-ai-framework** | Core 3-layer architecture with code examples | [View](https://github.com/maree217/three-layer-ai-framework) |
+| **ai-tools-platforms-solutions-guide** | ThoughtWorks Radar-based tool recommendations | [View](https://github.com/maree217/ai-tools-platforms-solutions-guide) |
+| **maturity-assessor** | AI maturity assessment prototype (private) | Private |
+| **semantic-kernel-production-patterns** | Production patterns for Semantic Kernel | [View](https://github.com/maree217/semantic-kernel-production-patterns) |
+| **enterprise-agent-toolkit** | Complete consulting sales toolkit | [View](https://github.com/maree217/enterprise-agent-toolkit) |
+
+**External Frameworks Referenced:**
+- [OWASP AI Maturity Assessment](https://github.com/OWASP/www-project-ai-maturity-assessment) - AI security & responsible AI
+- [MIT CISR AI Maturity Model](https://cisr.mit.edu) - Enterprise AI value creation
+- [ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar) - Technology recommendations
 
 ---
 
